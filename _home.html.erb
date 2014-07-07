@@ -1,0 +1,61 @@
+<div id="home">
+	<div class="container">
+		<div class="row">
+		<div class="span12">
+		<div class="span6">
+			<img src="images/home/logo-500x500.jpg"/>
+		</div> <!-- span6 -->
+		<div class="span5">
+		<h1>Cosplay</h1>
+		<h2>Studio Project</h2>
+		<h3>同人誌週邊商品行銷網站</h3>
+		<hr>
+		<p>
+			客製化COSPLAY道具訂製，
+            打造如動漫或遊戲中角色所使用道具.武器，
+            讓你扮演起來更具人物的代表性。
+		</p>
+		  <img src="images/home/1.jpg" />
+		  <img src="images/home/2.jpg" />
+          <img src="images/home/3.jpg" />
+          <img src="images/home/4.jpg" />
+		
+		</div> <!-- span5 -->
+		</div> <!-- span12 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- home -->
+
+<script>
+	$(function(){
+    $('#home .span5,.span6:nth-child(1)').orzScroll({
+    		offset:300,
+    		delay:'-0.2s'
+    });
+    $('#about .span7').orzScroll({
+    		animation:'bounceIn',
+    		offset:600
+
+    	});
+    $('.video-background').orzScroll({
+    		animation:'bounceIn',
+    		offset:500,
+    		delay:'0.5s'
+    });
+    $('#photos .span4').orzScroll({
+    		offset:500,
+    		delay:'-0.5s',
+    		animation:'slideInDown'
+    });
+    $('#ar .span6:nth-child(n+1)').orzScroll({
+    		offset:500,
+    		delay:'-0.2s'
+    });
+
+
+
+    //$('div:nth-child(odd)').orzScroll({
+        //animation:'fadeInRight'
+    //});
+});
+</script>
